@@ -196,7 +196,7 @@
         </div>
 
         <a
-          href="assets/app/ySpace.apk"
+          href="https://drive.google.com/uc?export=download&id=1hDj1YUgW8X3WwNvOOnvWi0CLLQwK5ibm"
           download
           class="btn-primary flex items-center justify-center gap-3 w-full text-white font-bold text-base sm:text-lg py-4 px-6 rounded-2xl mb-4"
         >
@@ -479,8 +479,8 @@
       document.getElementById("year").textContent = new Date().getFullYear();
 
       // Generate QR code pointing to the APK file
-      const apkUrl = new URL("assets/app/ySpace.apk", window.location.href)
-        .href;
+      const apkUrl =
+        "https://drive.google.com/uc?export=download&id=1hDj1YUgW8X3WwNvOOnvWi0CLLQwK5ibm";
       const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(apkUrl)}`;
       document.getElementById("qr-code").src = qrUrl;
 

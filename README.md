@@ -8,8 +8,7 @@ A simple, mobile-first landing page for downloading the ySpace HR Android app.
 yspace-download/
 ├── index.html                          # Main landing page
 ├── assets/
-│   ├── app/
-│   │   └── ySpace.apk                  # Android APK file
+│   ├── app/                            # (no longer used; APK hosted on Google Drive)
 │   └── images/
 │       ├── app-logo.png                # ySpace app logo
 │       ├── company-logo.png            # Young Investment Group logo
@@ -41,20 +40,14 @@ Then open `http://localhost:8080` in your browser.
 
 ### 1. APK file
 
-Place your Android APK file at:
-
-```
-assets/app/ySpace.apk
-```
-
-If your filename is different, update both the download link and the QR code script in `index.html`:
+The APK is hosted on Google Drive. Update the download link and QR code URL in `index.html` if the link changes:
 
 ```html
-<a href="assets/app/your-filename.apk" download>...</a>
+<a href="https://drive.google.com/uc?export=download&id=YOUR_FILE_ID" download>...</a>
 ```
 
 ```js
-const apkUrl = new URL('assets/app/your-filename.apk', window.location.href).href;
+const apkUrl = "https://drive.google.com/uc?export=download&id=YOUR_FILE_ID";
 ```
 
 ### 2. Logos
