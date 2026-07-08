@@ -112,6 +112,12 @@ To change it, update the `--primary` value and the related `--primary-light`, `-
 
 If you want to deploy only this folder from a larger monorepo, set the **Root directory** to `yspace-download` and the **Build output directory** to `/`.
 
+## Language Support
+
+The page supports English and Burmese (Myanmar). Users can switch languages using the **EN | MY** toggle in the header. The selected language is saved in the browser's localStorage.
+
+To update translations, edit the `translations` object in `index.html`.
+
 ## Notes
 
 - The QR code is generated automatically and points to the APK file URL.
