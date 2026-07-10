@@ -43,11 +43,16 @@ Then open `http://localhost:8080` in your browser.
 The APK is hosted on Google Drive. Update the download link and QR code URL in `index.html` if the link changes:
 
 ```html
-<a href="https://drive.google.com/uc?export=download&id=YOUR_FILE_ID" download>...</a>
+<a
+  href="https://drive.google.com/uc?export=download&id=1HGWj98lMWcgIm057f6Kme9qsT7aMKjHM"
+  download
+  >...</a
+>
 ```
 
 ```js
-const apkUrl = "https://drive.google.com/uc?export=download&id=YOUR_FILE_ID";
+const apkUrl =
+  "https://drive.google.com/uc?export=download&id=1HGWj98lMWcgIm057f6Kme9qsT7aMKjHM";
 ```
 
 ### 2. Logos
