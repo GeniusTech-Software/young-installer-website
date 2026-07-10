@@ -1,6 +1,6 @@
-# ySpace Download Page
+# Young Download Page
 
-A simple, mobile-first landing page for downloading the ySpace HR Android app.
+A simple, mobile-first landing page for downloading the Young HR Android app.
 
 ## Project Structure
 
@@ -10,13 +10,13 @@ yspace-download/
 ├── assets/
 │   ├── app/                            # (no longer used; APK hosted on Google Drive)
 │   └── images/
-│       ├── app-logo.png                # ySpace app logo
+│       ├── app-logo.png                # Young app logo
 │       ├── company-logo.png            # Young Investment Group logo
 │       └── install-steps/              # Install guide screenshots
 │           ├── step-1.jpg              # Step 1: Download the APK
 │           ├── step-2.jpg              # Step 2: Tap Install
 │           ├── step-3.jpg              # Step 3: Wait for installation
-│           └── step-4.jpg              # Step 4: Open ySpace
+│           └── step-4.jpg              # Step 4: Open Young
 └── README.md
 ```
 
@@ -44,7 +44,7 @@ The APK is hosted on Google Drive. Update the download link and QR code URL in `
 
 ```html
 <a
-  href="https://drive.google.com/uc?export=download&id=1HGWj98lMWcgIm057f6Kme9qsT7aMKjHM"
+  href="https://drive.google.com/uc?export=download&id=1nGRSkqov_AIq9HQWjE7j6Ej46_kCKBjo"
   download
   >...</a
 >
@@ -52,14 +52,14 @@ The APK is hosted on Google Drive. Update the download link and QR code URL in `
 
 ```js
 const apkUrl =
-  "https://drive.google.com/uc?export=download&id=1HGWj98lMWcgIm057f6Kme9qsT7aMKjHM";
+  "https://drive.google.com/uc?export=download&id=1nGRSkqov_AIq9HQWjE7j6Ej46_kCKBjo";
 ```
 
 ### 2. Logos
 
 Replace these files with your actual images:
 
-- `assets/images/app-logo.png` — ySpace app icon
+- `assets/images/app-logo.png` — Young app icon
 - `assets/images/company-logo.png` — Young Investment Group logo
 
 Recommended format: PNG with transparent background. Suggested size: at least 512x512px for the app logo.
