@@ -2,6 +2,9 @@
 
 A simple, mobile-first landing page for downloading the Young HR Android app.
 
+[![Release](https://github.com/your-org/yspace-download/actions/workflows/release.yml/badge.svg)](https://github.com/your-org/yspace-download/actions/workflows/release.yml)
+[![CI](https://github.com/your-org/yspace-download/actions/workflows/ci.yml/badge.svg)](https://github.com/your-org/yspace-download/actions/workflows/ci.yml)
+
 ## Project Structure
 
 ```

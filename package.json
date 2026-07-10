@@ -1,0 +1,30 @@
+{
+  "name": "yspace-download",
+  "version": "1.0.0",
+  "description": "A simple, mobile-first landing page for downloading the Young HR Android app",
+  "private": true,
+  "scripts": {
+    "serve": "python3 -m http.server 8080",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GeniusTech-Software/y-space-installer-website.git"
+  },
+  "keywords": [
+    "hr",
+    "android",
+    "download-page",
+    "landing-page"
+  ],
+  "author": "Young Investment Group",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.1",
+    "@commitlint/config-conventional": "^21.2.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "husky": "^9.1.7",
+    "semantic-release": "^23.0.0"
+  }
+}
